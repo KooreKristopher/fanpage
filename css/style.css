@@ -1,5 +1,7 @@
 html {
     height: 100%;
+    background-color:black;
+    color:red;
 }
 
 body {
@@ -12,8 +14,30 @@ a {
 
 .main {
     height: 100%;
+    background-image: url("https://vidalcuglietta.com/wp-content/uploads/2018/08/dinosaur-painting-awesome-yutyrannus-huali-by-cheungchungtat-on-deviantart-of-dinosaur-painting.jpg");
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-around;
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+}
+.footer{
+    display:flex;
+    justify-content:space-around;
+}
+#gallery{
+    display:flex;
+    justify-content:center;
+}
+#2nd{
+    width:50px;
+    height:50px;
 }
