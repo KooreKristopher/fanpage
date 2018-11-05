@@ -1,29 +1,55 @@
 html {
     height: 100%;
-    background-color:black;
+    background-color:blue;
     color:red;
-}
-
-body {
-    height: 100%;
+  width:100%;  
+  
+  
     
+    
+}
+a{
+    color:maroon;
+    font:bold;
+   
+}
+body {
+  
+background-size:100% 100%;
+background-repeat:no-repeat;
+background-image:url("https://www.thoughtco.com/thmb/UhD3V2LkMtYfk1yzT6FIN6lUldQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/140891386-58b5e6653df78cdcd8f658fa.jpg");
 }
 a {
     text-decoration: none;
 }
 
 .main {
-    height: 100%;
-    background-image: url("https://vidalcuglietta.com/wp-content/uploads/2018/08/dinosaur-painting-awesome-yutyrannus-huali-by-cheungchungtat-on-deviantart-of-dinosaur-painting.jpg");
+   height:1000px;
+   width:1000px;
+    
 }
+.aboutMain{
+    height:1000px;
+    width:1000px;
+    display:flex;
+    justify-content:center;
+}
+
 .social-image{
     width: 30px;
     margin: 15px;
 }
-
+.thumbnail-image{
+    height:200px;
+    width:200px;
+    border-color:blue;
+    border-width:50px;
+    border-style:dotted;
+}
 .header{
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
+    background-color:seagreen;
 }
 .navbar{
     display:flex;
@@ -31,7 +57,7 @@ a {
 }
 .footer{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 #gallery{
     display:flex;
@@ -40,4 +66,21 @@ a {
 #2nd{
     width:50px;
     height:50px;
+}
+.leftPane{
+    display:flex;
+    background-color:blue;
+    color:green;
+    height:500px;
+    width:1000px;
+    justify-content:space-around;
+    border-width:50px;
+}
+
+#terror{
+    display:flex;
+    height:500px;
+    width:500px;
+    border-width:50px;
+    justify-content:center;
 }
